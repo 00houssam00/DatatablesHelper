@@ -1,7 +1,9 @@
 # DatatablesHelper
-A small JavaScript/JQuery module that provides an easy and fast interface for building tables using data tables plugin based on the builder design pattern
+A small JavaScript/JQuery module that provides an easy and fast interface for building tables using data tables plugin based on the builder design pattern.
 
-How to use?
+# How to use?
+
+```
 let table = new Table('#myTableId')
         .setUrl('./GetMyDataAPI');
         .setUrlData(function () {     // Data that is sent with the url
@@ -31,3 +33,4 @@ let table = new Table('#myTableId')
             
             // Make sure to call this method after your table configurations
             .build();
+```
